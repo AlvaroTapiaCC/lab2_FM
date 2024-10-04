@@ -120,26 +120,22 @@
 %   ACÁ EMPIEZA EL INFORME
 \setcounter{page}{1} % Reinicia el contador de páginas
 %----------------------------------------------------------------------------------------
-%Este es el formato a seguir para los titulos de las secciones
+%This is the format to follow for section titles
 \section{Introduction}
 
-En la primera experiencia de laboratorio, se utilizaron tecnicas de CFD para poder hacer una de agua a travez de dos placas paralelas e infinitas. El problema de la simulaciones
-computacionales radica en que no se puede saber si esta correctamente calibrada a menos que se corrobore con un resultado experimental. Ahora bien, ¿como podemos estudiar un fluido como el aire o el agua, si estos son transparentes?
+In the first laboratory experiment, CFD techniques were used to simulate the flow of water through two infinite parallel plates. The issue with computational simulations is that it is not possible to know if they are correctly calibrated unless they are verified with experimental results. So, how can we study a fluid like air or water if they are transparent?
 \\ \\
-A lo largo de la historia se han desarrollado diversas tecnicas para poder lograr este acometido, comenzando por la observacion:
+Throughout history, various techniques have been developed to achieve this goal, starting with observation:
 \\ \\
-En 1918, los ingenieros de Porsche se propusieron ganar Lemmans con su nuevo prototipo, el Porsche 917, pero las cosas no salieron como esperaban, el auto resulto ser inestable y dificil de conducir. Luego de un par de años, se observo que el auto no se ensuciaba en la parte trasera
-lo que llamo la atencion de los ingenieros, ya que esto queria decir que el aier no estaba pasando correctamente por esa zona, de esta manera, se decidio cortar la parte trasera, naciendo asi el Porche 917K, uno de los autos mas dominante en la historia del automovilismo. \href{https://automedia.revsinstitute.org/1971-porsche-917k}{Mas informacion}
+In 1918, Porsche engineers set out to win Le Mans with their new prototype, the Porsche 917, but things did not go as expected. The car turned out to be unstable and difficult to drive. After a couple of years, it was observed that the rear part of the car did not get dirty, which caught the attention of the engineers, as this meant that the air was not passing correctly through that area. This led to the decision to cut off the rear part of the car, giving birth to the Porsche 917K, one of the most dominant cars in the history of motorsports. \href{https://automedia.revsinstitute.org/1971-porsche-917k}{More information}. There's also the wind tunnel, which began its development in 1871 when Francis Herbert Wenham, an aeronautical engineer, built a wind tunnel to study the behavior of airplane wings. \href{https://www.grc.nasa.gov/www/k-12/WindTunnel/history.html}{Wind tunnel history}.
 \\ \\
-Paralelamente, desde las guarras mundiales, se comenzaron a desarrollar tecnicas de tunel de viento, para poder desarrollar los cazas de forma que fueran mas rapidos, maniobrables y eficientes. 
-\\ \\
-En la actualidad, tecnicas como el PIV (Particle Image Velocimetry) y el PTV (Particle Tracking Velocimetry) se estan implementando en la industria para poder estudiar el comportamiento de los fluidos en distintas situaciones. 
-Esta experiencia de laboratorio, tiene como objetivo el estudio de un fluido newtoniano incompresible a travez del uso de la tecnica PIV, donde se buscara obtener datos como el perfil de velocidad y corte.
+Nowadays, techniques such as PIV (Particle Image Velocimetry) and PTV (Particle Tracking Velocimetry) are being implemented in the industry to study the behavior of fluids in different situations. 
+This laboratory experiment aims to study an incompressible Newtonian fluid using the PIV technique, where data such as velocity profile and shear stress will be obtained.
 
-\section{Desarrollo}
+\section{Development}
 
-Para esta practica, deberan desarrollar un codigo en python, el cual a partir de archivos .txt sea capaz de obtener el perfil de velocidad y corte de los datos obtenidos del PIV en el laboratorio.
-Esta curva, deberan compararla con un calculo teorico, donde deberan basarse en la Ley de Poiseuille, la cual permite identificar el perfil de velocidad en un flujo laminar a travez de un tubo.
+For this exercise, you must develop a Python code, which, based on .txt files, should be able to obtain the velocity profile and shear stress from the PIV data obtained in the laboratory.
+This curve should be compared with a theoretical calculation, where you should base it on Poiseuille's Law, which allows identifying the velocity profile in a laminar flow through a tube.
 
 \begin{equation}
     u(r) = u_{max}(1 - \frac{r^2}{R^2})
@@ -149,29 +145,31 @@ Esta curva, deberan compararla con un calculo teorico, donde deberan basarse en 
     u_{max} = 2 \cdot u_{avg}
 \end{equation}
 
-Si nesecitan mas informacion, consulten el siguiente \href{https://www.simscale.com/docs/validation-cases/hagen-poiseuille-flow/}{link}
+If you need more information, consult the following \href{https://www.simscale.com/docs/validation-cases/hagen-poiseuille-flow/}{link}.
 \\ \\
-Deberan calcular el perfil de corte segun la siguiente formula:
+You should calculate the shear stress profile using the following formula:
 
 \begin{equation}
     \tau = \mu \frac{du}{dy}
 \end{equation}
 
-\section{Preguntas}
+\newpage
+\section{Questions}
 
-Ademas del desarrollo, deberan responder las siguientes preguntas a lo largo de su informe:
+In addition to the development, you must answer the following questions throughout your report:
 \\ \\
-¿Como se puede implementar la IA (Inteliencia Artificial) en tecnicas del PIV o PTV?
+How can AI (Artificial Intelligence) be implemented in PIV or PTV techniques?
 \\ \\
-¿Que ventajas tiene el uso del PIV o PTV frente al tunel de viento? ¿Porque aun se utiliza el tunel de viento en la indutria?
+What advantages does PIV or PTV have over the wind tunnel? Why is the wind tunnel still used in the industry?
 \\ \\
-Ademas de las tecnicas mencionadas en esta guia, ¿que otras tecnicas se utilizan para estudiar el comportamiento de los fluidos?
+Besides the techniques mentioned in this guide, what other techniques are used to study fluid behavior?
 
-\section{Lecturas Recomendadas}
+\section{Recommended Readings}
 
-Q = 90 L/s
+\href{https://github.com/LukasWolff2002/Lab_2_FM/blob/main/LECTURAS/Grant_1997.pdf}{Grant 1997}
+\\ \\
+\href{https://github.com/LukasWolff2002/Lab_2_FM/blob/main/LECTURAS/Hammad_1999.pdf}{Hammad 1999}
 
 %----------------------------------------------------------------------------------------
-
 
 \end{document}
