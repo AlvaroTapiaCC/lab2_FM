@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1728323001.05475 "/Users/lukaswolff/Desktop/24_20/FLUID_LAB/LABORATORIO_2/INFORME/informe.tex" "informe.pdf" "informe" 1728323001.80989 0
-  "/Users/lukaswolff/Desktop/24_20/FLUID_LAB/LABORATORIO_2/INFORME/informe.tex" 1728323000.80505 11696 2fb4c22c01040f91c0eb418270be598a ""
+["pdflatex"] 1728561989.45126 "/Users/lukaswolff/Desktop/24_20/FLUID_LAB/LABORATORIO_2/INFORME/informe.tex" "informe.pdf" "informe" 1728561990.17295 0
+  "/Users/lukaswolff/Desktop/24_20/FLUID_LAB/LABORATORIO_2/INFORME/informe.tex" 1728561989.27088 11699 65d09709f18309fc99c5de1e0ed65544 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
@@ -151,9 +151,9 @@
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1710685568 8221436 9feefa88f893c4604437a3bcd513880c ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "LOGO_UNIVERSIDAD.jpg" 1728066244.49143 209820 0b87a0bacbcaefabd8c20ec03a39f2f2 ""
-  "informe.aux" 1728323001.7437 618 b9efd1b8764c226dde603c53ed6f4e0e "pdflatex"
-  "informe.out" 1728323001.74412 435 bf616c04def41abd5344d06a627eff21 "pdflatex"
-  "informe.tex" 1728323000.80505 11696 2fb4c22c01040f91c0eb418270be598a ""
+  "informe.aux" 1728561990.10569 618 b9efd1b8764c226dde603c53ed6f4e0e "pdflatex"
+  "informe.out" 1728561990.10629 435 bf616c04def41abd5344d06a627eff21 "pdflatex"
+  "informe.tex" 1728561989.27088 11699 65d09709f18309fc99c5de1e0ed65544 ""
   (generated)
   "informe.aux"
   "informe.log"
